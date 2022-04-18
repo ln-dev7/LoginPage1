@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 60%;
+  background: #E5E5E5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.main-header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main-header-left span {
+  font-weight: 600;
+  margin-left: 10px;
+}
+.main-header-right span {
+  font-size: 14px;
+}
+.main-header-right .green {
+  cursor: pointer;
+  color: #20DC49;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.main .content {
+  width: 100%;
+  min-height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main-container-header h2 {
+  font-size: 36px;
+}
+.main-container-header h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-container-socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-container-socials button {
+  height: 45px;
+  border: 2px solid #bbbbbb;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #FFFFFF;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+.main-container-socials button span {
+  margin-left: 10px;
+}
+.main-container-socials button:hover {
+  border-color: #20DC49;
+}
+.main-container .line {
+  margin: 25px 0;
+  background: #bbbbbb;
+  width: 100%;
+  height: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .line span {
+  font-size: 13px;
+  background: #E5E5E5;
+  padding: 0 10px;
+}
+.main-container-form {
+  width: 100%;
+}
+.main-container-form div {
+  position: relative;
+  margin-bottom: 20px;
+}
+.main-container-form div input {
+  width: 100%;
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(187, 187, 187, 0.831372549);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 14px;
+  color: #000000;
+}
+.main-container-form div input[type=password] {
+  padding-right: 40px;
+}
+.main-container-form div img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-container-form .other {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-container-form .other span {
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-container-form .other .red {
+  color: #D93F21;
+}
+.main-container-form button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.aside {
+  width: 40%;
+  height: 100vh;
+  background: url(assets/banner.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.aside-container {
+  position: relative;
+  height: 270px;
+  width: 100%;
+  margin: 0 50px 50px 50px;
+  padding: 30px;
+  border-radius: 10px;
+  background: rgba(255, 242, 242, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.aside-container button {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #20DC49;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.aside-container button span {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.aside-container p {
+  margin-top: 15px;
+  color: #FFFFFF;
+}
+.aside-container .blur {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: -200px;
+  bottom: 90px;
+}/*# sourceMappingURL=style.css.map */
